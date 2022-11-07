@@ -1,0 +1,367 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-size: 10px;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    
+      
+    
+}
+
+
+
+.ul-liste{
+    display: flex;
+    list-style: none;
+    gap: 64px;
+    font-size: 17px;
+    
+    
+}
+
+
+body{
+    background: url('image/Decore.png'), url(image/Ellipse\ 8.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+    
+
+}
+
+h3{
+    color: #DF6951;
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: bold;
+    width: 410px;
+    height: 30px;
+
+
+}
+
+h1{
+    color: #181E4B;
+    font-size: 84px;
+    font-weight: bold;
+    width: 545px;
+    height: 247px;
+}
+
+p{
+    color: #5E6282;
+    font-size: 16px;
+    font-weight: medium;
+    width: 477px;
+    height: 90px;
+    margin-top: 80px;
+
+  }
+
+
+
+
+.sign-up-cadre{
+    border-width: 1px;
+    border-style: outset;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
+.button{ /*c'est une div nommé "button", et c'est pour le bouton find out more en orange*/
+    
+    height: 60px;
+    width: 30%;
+    display: flex;
+    background: #F1A501;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    
+    
+}
+
+.pres{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 10%;
+    
+    
+}
+
+.ul-liste a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: rgb(102, 96, 96);
+    font-size: 17px;
+   
+    
+}
+
+.link-one{ /*pour le lien find out more*/
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+    font-size: 18px;
+    
+
+}
+
+
+
+
+.icontrideux{ /*c'est la div pour l'icone play demo en rouge*/
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /*  à resoudre: pourquoi la div ne se place pas au centre*/
+    white-space: nowrap;
+    right: 60%;
+    bottom: 80px;
+    
+}
+
+.icontri{ /*à résoudre: POURQUOI L'icone triangle ne se centre pas --> résolu*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.play-demo{ /*pourquoi la phrase "play demo ne sont pas sur la meme ligne --> résolu*/
+    position: absolute;
+    left:64px;
+    
+}
+
+.container-category{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:30%;
+    
+}
+
+.category{
+    color:#5E6282;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.services{
+    display: flex;
+    font-size: 50px;
+    margin-right: 35%;
+
+}
+
+.emoji{
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    left: 10%;
+    width: 20%;
+    
+}
+
+.h2-parabol{
+    position: relative;
+    display: flex;
+    top: 90px;
+    right: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#1E1D4C
+       
+    
+}
+
+.img-parabol{
+    position: relative;
+    left: 45px;
+
+}
+.p-parabol{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+   
+}
+
+.div-plane{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 200px;
+    left: 30%;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+
+}
+
+
+
+.h2-flights{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+.div-img-plane{
+    display: flex;
+    justify-content: center;
+    bottom: 560px;
+    right: 180px;
+    position: relative;
+    
+}
+.red{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 190px;
+    top: 140px;
+
+}
+
+.plane-img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 59px;
+}
+
+.p-plane{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+   
+}
+
+.div-micro{
+    display: flex;
+    justify-content: center;
+    bottom: 620px;
+    left: 200px;
+    position: relative;
+
+}
+
+.h2-micro{
+    position: relative;
+    display: flex;
+    top: 110px;
+    right: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#1E1D4C
+}
+
+.p-micro{
+    position: absolute;
+    top: 75px;
+    left: 42%;
+   
+}
+
+.div-para{
+    display: flex;
+    justify-content: center;
+    bottom: 690px;
+    left: 500px;
+    position: relative;
+}
+
+.h2-custom{
+    position: relative;
+    display: flex;
+    top: 110px;
+    right: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#1E1D4C
+}
+
+.p-custom{
+    position: absolute;
+    top: 75px;
+    left: 42%;
+}
+
+.div-destination{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:30%;
+    position: relative;
+    bottom: 450px;
+    width: 30%;
+    left: 250px;
+    
+}
+
+.sellings{
+    color:#5E6282;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.h1-destination{
+    display: flex;
+    font-size: 50px;
+    margin-right: 35%;
+
+}
+
+.div-picsdestination{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 500px;
+    
+}
+
+@media screen /* pour le responsive on veut affecter les ecrans c'est pour ca screen*/ and (max-width: 800px) /* et on met 
+un max width pour la taille maximun de l'ecran, pour toute les tailles d'ecran qui 
+ne depasseront pas 800px on peut aussi faire
+min-width*/{
+    h1{
+        font-size: 14px;
+    }
+}
